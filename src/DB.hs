@@ -31,3 +31,6 @@ writeIssues = do
   issues <- fetchIssues -- Some arbitrary function that returns IO [Issue]
   result <- executeMany conn "insert into issueTbl (author, title, comments) values (?,?,?)" issues
   print result
+
+fetchIssues :: IO [Issue]
+fetchIssues = undefined

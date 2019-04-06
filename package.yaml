@@ -24,6 +24,10 @@ dependencies:
 - text
 - aeson
 - postgresql-simple
+- servant
+- servant-server
+- wai
+- warp
 
 library:
   source-dirs: src
