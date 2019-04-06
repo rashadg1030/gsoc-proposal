@@ -28,6 +28,8 @@ dependencies:
 - servant-server
 - wai
 - warp
+- graphql-api 
+- relude
 
 library:
   source-dirs: src
