@@ -18,10 +18,9 @@ import GraphQL.Resolver (Handler, (:<>)(..), unionValue)
 --   commits: Int!
 -- }
 
--- Type definition of Repo schema
+-- Simplified type definition of Repo GraphQL schema
 type Repo = Object "Repo" '[] 
   '[ Field "title" Text
    , Field "stargazers" Int32
    , Field "commits" Int32
    ]
-
