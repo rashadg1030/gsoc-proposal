@@ -30,6 +30,7 @@ dependencies:
 - warp
 - graphql-api 
 - relude
+- squeal-postgresql
 
 library:
   source-dirs: src
